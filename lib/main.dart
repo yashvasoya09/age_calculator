@@ -5,6 +5,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.black26,
         appBar: AppBar(
           leading: Icon(Icons.sort, color: Colors.black),
           backgroundColor: Colors.black12,
@@ -67,6 +68,10 @@ void main() {
                             Icons.calendar_month,
                             color: Colors.white,
                           ),
+                          suffixIcon: Icon(
+                            Icons.chevron_right,
+                            color: Colors.white,
+                          ),
                           label: Text(
                             "Enter Our Birth Date",
                             style: TextStyle(
@@ -97,6 +102,10 @@ void main() {
                           border: OutlineInputBorder(),
                           prefixIcon: Icon(
                             Icons.calendar_month,
+                            color: Colors.white,
+                          ),
+                          suffixIcon: Icon(
+                            Icons.chevron_right,
                             color: Colors.white,
                           ),
                           label: Text(
